@@ -1,13 +1,20 @@
 Installation:
 Windows:
+
 download and install python 3 
 
 open CMD:
+
 cd {project folder}
+
 pip install virtualenv
+
 virtualenv env
+
 env\scripts\activate
+
 pip install -r requirements.txt
+
 python manage.py runserver
 
 
